@@ -1,0 +1,56 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/userCenter/userCenter",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/quotation/quotation",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	},
+	"tabBar": {
+	    "list": [
+	      {
+	        "pagePath": "pages/index/index",
+	        "text": "首页",
+	        "iconPath": "static/index1.png",
+	        "selectedIconPath": "static/index2.png"
+	      },
+	      {
+	        "pagePath": "pages/quotation/quotation",
+	        "text": "看行情",
+	        "iconPath": "static/quotation1.png",
+	        "selectedIconPath": "static/quotation1.png"
+	      },
+	      {
+	        "pagePath": "pages/userCenter/userCenter",
+	        "text": "我的",
+	        "iconPath": "static/userCenter1.png",
+	        "selectedIconPath": "static/userCenter2.png"
+	      }
+	    ],
+	    "selectedColor": "#ffffff",
+	    "color": "#ffffff",
+	    "position": "bottom",
+		"backgroundColor":"#ff6666"
+	  }
+}
