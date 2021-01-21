@@ -2,7 +2,11 @@
   "pages": [
     "pages/index/index",
     "pages/userCenter/userCenter",
-    "pages/quotation/quotation"
+    "pages/quotation/quotation",
+    "pages/myFocus/myFocus",
+    "pages/myStep/myStep",
+    "pages/quotationChart/quotationChart",
+    "pages/quotationData/quotationData"
   ],
   "subPackages": [],
   "window": {
@@ -40,5 +44,6 @@
   },
   "usingComponents": {
     "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
-  }
+  },
+  "sitemapLocation": "sitemap24.json"
 }

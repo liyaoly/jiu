@@ -119,6 +119,13 @@
 <style lang="scss" scoped>
 	$nav-height: 44px;
 	.uni-nav-bar-text {
+		/* #ifdef MP-WEIXIN */
+			font-size: 37upx;
+			font-family: SourceHanSansSC;
+			font-weight: bold;
+			color: #FFFFFF;
+			margin-left: 128upx;
+		/* #endif */
 		/* #ifdef APP-PLUS */
 		font-size: 34rpx;
 		/* #endif */
@@ -221,8 +228,9 @@
 	}
 
 	.uni-navbar--border {
-		border-bottom-width: 1rpx;
-		border-bottom-style: solid;
-		border-bottom-color: $uni-border-color;
+		border: none;
+		// border-bottom-width: 1rpx;
+		// border-bottom-style: solid;
+		// border-bottom-color: $uni-border-color;
 	}
 </style>

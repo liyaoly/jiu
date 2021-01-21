@@ -13,9 +13,9 @@
 /* 11 */,
 /* 12 */,
 /* 13 */
-/*!****************************************************************!*\
-  !*** F:/jiu/jiu_demo/main.js?{"page":"pages%2Findex%2Findex"} ***!
-  \****************************************************************/
+/*!***********************************************************!*\
+  !*** F:/jiu/jiu/main.js?{"page":"pages%2Findex%2Findex"} ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28,9 +28,9 @@ createPage(_index.default);
 
 /***/ }),
 /* 14 */
-/*!*********************************************!*\
-  !*** F:/jiu/jiu_demo/pages/index/index.vue ***!
-  \*********************************************/
+/*!****************************************!*\
+  !*** F:/jiu/jiu/pages/index/index.vue ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -68,9 +68,9 @@ component.options.__file = "pages/index/index.vue"
 
 /***/ }),
 /* 15 */
-/*!****************************************************************************************!*\
-  !*** F:/jiu/jiu_demo/pages/index/index.vue?vue&type=template&id=57280228&scoped=true& ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** F:/jiu/jiu/pages/index/index.vue?vue&type=template&id=57280228&scoped=true& ***!
+  \***********************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -89,9 +89,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 16 */
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/jiu/jiu_demo/pages/index/index.vue?vue&type=template&id=57280228&scoped=true& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/jiu/jiu/pages/index/index.vue?vue&type=template&id=57280228&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -105,7 +105,7 @@ var components
 try {
   components = {
     uniNavBar: function() {
-      return __webpack_require__.e(/*! import() | components/uni-nav-bar/uni-nav-bar */ "components/uni-nav-bar/uni-nav-bar").then(__webpack_require__.bind(null, /*! @/components/uni-nav-bar/uni-nav-bar.vue */ 33))
+      return __webpack_require__.e(/*! import() | components/uni-nav-bar/uni-nav-bar */ "components/uni-nav-bar/uni-nav-bar").then(__webpack_require__.bind(null, /*! @/components/uni-nav-bar/uni-nav-bar.vue */ 70))
     }
   }
 } catch (e) {
@@ -138,9 +138,9 @@ render._withStripped = true
 
 /***/ }),
 /* 17 */
-/*!**********************************************************************!*\
-  !*** F:/jiu/jiu_demo/pages/index/index.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************/
+/*!*****************************************************************!*\
+  !*** F:/jiu/jiu/pages/index/index.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -153,9 +153,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 18 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/jiu/jiu_demo/pages/index/index.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/jiu/jiu/pages/index/index.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -181,23 +181,183 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default =
 {
   data: function data() {
     return {
-      title: 'Hello' };
+      title: 'Hello',
+      choose_id: 0,
+      brands: [
+      {
+        brand_name: '全部',
+        brand_id: 0,
+        type: 'brand' },
+
+      {
+        brand_name: '剑南春',
+        brand_id: 1,
+        type: 'brand' },
+      {
+        brand_name: '飞天茅台',
+        brand_id: 2,
+        type: 'brand' },
+      {
+        brand_name: '剑南春',
+        brand_id: 3,
+        type: 'brand' },
+      {
+        brand_name: '剑南春',
+        brand_id: 4,
+        type: 'brand' },
+      {
+        brand_name: '剑南春',
+        brand_id: 5,
+        type: 'brand' },
+      {
+        brand_name: '古井贡酒',
+        brand_id: 6,
+        type: 'brand' },
+      {
+        brand_name: '剑南春',
+        brand_id: 7,
+        type: 'brand' },
+      {
+        brand_name: '剑南春',
+        brand_id: 8,
+        type: 'brand' },
+      {
+        brand_name: '剑南春',
+        brand_id: 9,
+        type: 'brand' },
+      {
+        brand_name: '剑南春',
+        brand_id: 10,
+        type: 'brand' }],
+
+
+      dataList: [
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'rise' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'fall' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'balance' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'rise' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'fall' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'balance' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'rise' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'fall' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'balance' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'rise' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'fall' },
+
+      {
+        name: '黑标百草香',
+        change: '0.0',
+        RecoveryPrice: '1600',
+        todayPrice: '1900',
+        status: 'balance' }] };
+
+
 
   },
   onLoad: function onLoad() {
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    switchTap: function switchTap(record, index) {//更换资讯大类
+      console.log(record, index);
+      this.choose_id = record.brand_id;
+
+    } } };exports.default = _default;
 
 /***/ }),
 /* 19 */
-/*!*******************************************************************************************************!*\
-  !*** F:/jiu/jiu_demo/pages/index/index.vue?vue&type=style&index=0&id=57280228&scoped=true&lang=scss& ***!
-  \*******************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** F:/jiu/jiu/pages/index/index.vue?vue&type=style&index=0&id=57280228&scoped=true&lang=scss& ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -210,9 +370,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 20 */
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/jiu/jiu_demo/pages/index/index.vue?vue&type=style&index=0&id=57280228&scoped=true&lang=scss& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!F:/jiu/jiu/pages/index/index.vue?vue&type=style&index=0&id=57280228&scoped=true&lang=scss& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

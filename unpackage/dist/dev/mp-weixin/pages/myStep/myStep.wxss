@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.myFocus .content.data-v-d0c55a74 {
+  background: #eee;
+}
+.myFocus .content .tabar.data-v-d0c55a74 {
+  width: 750rpx;
+  height: 100rpx;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  line-height: 100rpx;
+}
+.myFocus .content .tabar .tabar-item.data-v-d0c55a74 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 30rpx;
+  font-family: SourceHanSansSC;
+  font-weight: 400;
+  color: #666666;
+}
+.myFocus .content .tabar .tabar-item-active.data-v-d0c55a74 {
+  border-bottom: 2px solid #0066CC;
+  font-weight: bold;
+  color: #0066CC;
+}
+.myFocus .content .listBox.data-v-d0c55a74 {
+  width: 100%;
+  min-height: 1106rpx;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+.myFocus .content .listBox .brand.data-v-d0c55a74,
+.myFocus .content .listBox .product.data-v-d0c55a74 {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 40rpx;
+  background: #EEEEEE;
+  position: absolute;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.myFocus .content .listBox .brand .itemBox.data-v-d0c55a74,
+.myFocus .content .listBox .product .itemBox.data-v-d0c55a74 {
+  width: 315rpx;
+  height: 218rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  margin-bottom: 40rpx;
+  box-sizing: border-box;
+  padding: 40rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  position: relative;
+}
+.myFocus .content .listBox .brand .itemBox .close.data-v-d0c55a74,
+.myFocus .content .listBox .product .itemBox .close.data-v-d0c55a74 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 53rpx;
+  height: 51rpx;
+  background: #333333;
+  border-bottom-left-radius: 100%;
+  opacity: 0.4;
+  text-align: center;
+  line-height: 30rpx;
+  color: #fff;
+}
+.myFocus .content .listBox .brand .itemBox .displayBox.data-v-d0c55a74,
+.myFocus .content .listBox .product .itemBox .displayBox.data-v-d0c55a74 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.myFocus .content .listBox .brand .itemBox .name.data-v-d0c55a74,
+.myFocus .content .listBox .product .itemBox .name.data-v-d0c55a74 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.myFocus .content .listBox .brand .itemBox .typeLabel.data-v-d0c55a74,
+.myFocus .content .listBox .product .itemBox .typeLabel.data-v-d0c55a74 {
+  display: inline-block;
+  width: 100rpx;
+  height: 24rpx;
+  background: #333333;
+  border-radius: 12px;
+  font-size: 20rpx;
+  font-family: SourceHanSansSC;
+  color: #FFFFFF;
+  text-align: center;
+  margin-right: 10rpx;
+}
+.myFocus .content .listBox .brand .itemBox .focusTime.data-v-d0c55a74,
+.myFocus .content .listBox .product .itemBox .focusTime.data-v-d0c55a74 {
+  font-size: 20rpx;
+  color: #666666;
+}
+.myFocus .content .listBox .brand .itemBox .rangeup.data-v-d0c55a74, .myFocus .content .listBox .brand .itemBox .pointup.data-v-d0c55a74, .myFocus .content .listBox .product .itemBox .rangeup.data-v-d0c55a74, .myFocus .content .listBox .product .itemBox .pointup.data-v-d0c55a74 {
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #FF6666;
+}
+.myFocus .content .listBox .brand .itemBox .rangedown.data-v-d0c55a74, .myFocus .content .listBox .brand .itemBox .pointdown.data-v-d0c55a74, .myFocus .content .listBox .product .itemBox .rangedown.data-v-d0c55a74, .myFocus .content .listBox .product .itemBox .pointdown.data-v-d0c55a74 {
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #0066CC;
+}
+.myFocus .content .listBox .brand .itemBox .pointup.data-v-d0c55a74, .myFocus .content .listBox .brand .itemBox .pointdown.data-v-d0c55a74, .myFocus .content .listBox .product .itemBox .pointup.data-v-d0c55a74, .myFocus .content .listBox .product .itemBox .pointdown.data-v-d0c55a74 {
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+.myFocus .content .listBox .brand .itemBox .unit.data-v-d0c55a74,
+.myFocus .content .listBox .product .itemBox .unit.data-v-d0c55a74 {
+  font-size: 20rpx;
+  font-weight: bold;
+  color: #FF6666;
+}
+.myFocus .content .listBox .brand .itemBox .price.data-v-d0c55a74,
+.myFocus .content .listBox .product .itemBox .price.data-v-d0c55a74 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #FF6666;
+}
+.myFocus .content .listBox .brand .marginRight.data-v-d0c55a74,
+.myFocus .content .listBox .product .marginRight.data-v-d0c55a74 {
+  margin-right: 40rpx;
+}
+.myFocus .content .listBox .brand-hide.data-v-d0c55a74 {
+  -webkit-transform: translateX(-750rpx);
+          transform: translateX(-750rpx);
+}
+.myFocus .content .listBox .product-hide.data-v-d0c55a74 {
+  -webkit-transform: translateX(750rpx);
+          transform: translateX(750rpx);
+}
+

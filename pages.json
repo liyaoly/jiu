@@ -1,5 +1,6 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -9,13 +10,37 @@
 		{
 			"path": "pages/userCenter/userCenter",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "个人中心"
 			}
 		},
 		{
 			"path": "pages/quotation/quotation",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "行情"
+			}
+		},
+		{
+			"path": "pages/myFocus/myFocus",
+			"style": {
+				"navigationBarTitleText": "我的关注"
+		}
+		},
+		{
+			"path": "pages/myStep/myStep",
+			"style": {
+				"navigationBarTitleText": "我的足迹"
+			}
+		},
+		{
+			"path": "pages/quotationChart/quotationChart",
+			"style": {
+				"navigationBarTitleText": "行情图表"
+			}
+		},
+		{
+			"path": "pages/quotationData/quotationData",
+			"style": {
+				"navigationBarTitleText": "行情数据"
 			}
 		}
 		

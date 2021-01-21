@@ -19,9 +19,18 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	/*每个页面公共css */
 	.placeholderClass{
 		color: #aaaaaa;
+	}
+	.headImg {
+		width: 20px;
+		height: 44px;
+	
+		image {
+			width: 20px;
+			height: 16px;
+		}
 	}
 </style>

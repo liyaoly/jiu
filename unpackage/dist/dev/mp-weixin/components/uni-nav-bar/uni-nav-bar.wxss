@@ -25,6 +25,11 @@
 /* 透明度 */
 /* 文章场景相关 */
 .uni-nav-bar-text.data-v-4afea59e {
+  font-size: 37rpx;
+  font-family: SourceHanSansSC;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-left: 128rpx;
   font-size: 32rpx;
 }
 .uni-nav-bar-right-text.data-v-4afea59e {
@@ -129,8 +134,6 @@
   box-shadow: 0 1px 6px #ccc;
 }
 .uni-navbar--border.data-v-4afea59e {
-  border-bottom-width: 1rpx;
-  border-bottom-style: solid;
-  border-bottom-color: #c8c7cc;
+  border: none;
 }
 
